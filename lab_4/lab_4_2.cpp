@@ -10,5 +10,5 @@ int main()
 
     float L = 3.14 * d;
 
-    std::cout << "Circumference is: " << L;
+    std::cout << "\nCircumference is: " << L;
 }
