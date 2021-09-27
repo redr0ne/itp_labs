@@ -8,7 +8,7 @@ int main()
     std::cout << "Input a: ";
     std::cin >> a;
 
-    std::cout << "Input b: ";
+    std::cout << "\nInput b: ";
     std::cin >> b;
 
 
