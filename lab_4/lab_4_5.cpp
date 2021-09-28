@@ -1,11 +1,11 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cmath>
 
 int main()
 {
 
-    int a = 0;
-    int b = 0;
+    float a = 0;
+    float b = 0;
 
     while (a == 0) {
         std::cout << "\nInput a: ";
@@ -25,8 +25,8 @@ int main()
         }
     }
 
-    int a_absolute = abs(a);
-    int b_absolute = abs(b);
+    float a_absolute = abs(a);
+    float b_absolute = abs(b);
 
     std::cout << "\nSum of modules is: " << a_absolute + b_absolute;
     std::cout << "\nDifference of modules is: " << a_absolute - b_absolute;
