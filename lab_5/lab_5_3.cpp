@@ -7,7 +7,7 @@ int main()
     int b = 1;
     int c = 2;
 
-    while (!(a < c < b) and !(a > c > b)) {
+    while (!((a < c) and (c < b))) {
 
         std::cout << "\ninput a: ";
         std::cin >> a;
@@ -18,9 +18,8 @@ int main()
         std::cout << "\ninput c: ";
         std::cin >> c;
 
-        if (!(a < c < b) and !(a > c > b)) {
+        if (!((a < c) and (c < b))) {
             std::cout << "\npoint c must be between points a and b";
-
         }
 
     }
