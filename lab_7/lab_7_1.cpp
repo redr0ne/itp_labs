@@ -8,7 +8,7 @@ int main()
     
     while (!((0 < degrees_alpha) and (degrees_alpha < 360))) {
 
-        std::cout << "\ninput alpha: ";
+        std::cout << "\ninput alpha in degrees: ";
         std::cin >> degrees_alpha;
 
         if (!((0 < degrees_alpha) and (degrees_alpha < 360))) {
