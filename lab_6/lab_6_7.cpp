@@ -8,8 +8,8 @@ int main()
 	std::cout << "\nInput A: ";
 	std::cin >> A;
 
-	A_2 = A * A;
-	A_3 = A_2 * A;
+	A_2 = pow(2, A);
+	A_3 = pow(3, A);
 
 	A_15 = A_3 * A_3 * A_3 * A_3 * A_2 * A;
 
