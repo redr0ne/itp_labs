@@ -14,7 +14,7 @@ int main()
         }
     }
     
-        while (!((N >= 1) and (N <= 7))) {
+    while (!((N >= 1) and (N <= 7))) {
         std::cout << "\nInput N: ";
         std::cin >> N;
         
