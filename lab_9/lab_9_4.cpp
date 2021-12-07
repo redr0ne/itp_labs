@@ -32,12 +32,11 @@ int main()
         }
     }
     
-    int rectangle_area = A * B;
-    int square_area = C * C;
-    
-    int number_of_squares = rectangle_area / square_area;
+    int filled_area = ((A / C) * C) * ((B / C) * C);
 
-    int unoccupied_area_of_the_rectangle = rectangle_area - (number_of_squares * square_area);
+    int unoccupied_area_of_the_rectangle = A * B - filled_area;
+    
+    int number_of_squares = filled_area / (C * C);
 
     std::cout << "\nNumber of squares in a rectangle: " << number_of_squares;
     std::cout << "\nUnoccupied area of the rectangle: " << unoccupied_area_of_the_rectangle;
