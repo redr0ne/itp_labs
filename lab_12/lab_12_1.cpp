@@ -37,7 +37,7 @@ int main()
         }
     }
     
-    if (day / 10 == 1){
+    if (day % 10 != 0) {
         switch (day / 10){
             case 2:
                 std::cout << "двадцать ";
