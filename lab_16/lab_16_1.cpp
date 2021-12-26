@@ -17,7 +17,7 @@ int main()
 
     int addition = 1;
     int count = 0;
-    while (count <= N){
+    while (count < N){
         array[count] = addition;
         count++;
         addition += 2;
